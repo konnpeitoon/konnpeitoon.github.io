@@ -19,7 +19,6 @@
     z-index: 9999999;
     border-radius:50%;
   }
-
   #test{
     height: 500px;
     width: 100%;
@@ -30,14 +29,10 @@
     justify-content: center;
   }
   #test p{
-    font-size:30px;
+    font-size:1rem;
     text-align: center;
   }
-  @media screen and (min-width:300px){
-    #test{
-      height: 1000px;
-    }
-  }
+
   #title{
     width:100%;
     position: fixed;
@@ -70,7 +65,6 @@
   #sec-2{
     text-align: center;
     height: 500px;
-    /* border:1px solid red; */
   }
 
   .footer{
@@ -109,4 +103,45 @@
     width:100%;
     height:100%;
     text-indent:-999px;
+}
+.meetscare_comic_1{
+  background-image: url("./images/m.meetscare_comic_1.png");
+  background-size: cover;
+}
+.meetscare_comic_2{
+  background-image: url("./images/m.meetscare_comic_2.png");
+  background-size: cover;
+}
+.meetscare_comic_3{
+  background-image: url("./images/m.meetscare_comic_3.png");
+  background-size: cover;
+}
+.meetscare_comic_4{
+  background-image: url("./images/m.meetscare_comic_4.png");
+  background-size: cover;
+}
+.meetscare_comic_5{
+  background-image: url("./images/m.meetscare_comic_5.png");
+  background-size: cover;
+}
+.meetscare_comic_6{
+  background-image: url("./images/m.meetscare_comic_6.png");
+  background-size: cover;
+}
+
+
+@media screen and (min-width:300px){
+  #test{
+    height: 1000px;
+  }
+  #sec-2{
+    height: 1000px;
+  }
+  .mangasample{
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin: 6px;
+    background-color: white;
+  }
 }
