@@ -29,7 +29,7 @@
     justify-content: center;
   }
   #test p{
-    font-size:1rem;
+    font-size:2rem;
     text-align: center;
   }
 
@@ -132,7 +132,7 @@
 
 @media screen and (max-width:980px){
   h2{
-    font-size: 0.8rem;
+    font-size: 2rem;
   }
   #test{
     height: 100vh;
