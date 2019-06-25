@@ -33,7 +33,11 @@
     font-size:30px;
     text-align: center;
   }
-
+  @media screen and (min-width:300px){
+    #test{
+      height: 100%;
+    }
+  }
   #title{
     width:100%;
     position: fixed;
