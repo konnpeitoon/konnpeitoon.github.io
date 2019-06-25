@@ -84,6 +84,13 @@ body.lb-disable-scrolling {
   z-index: 10;
 }
 
+@media screen and (max-width:980px){
+  .lb-nav {
+  height: 80%;
+  width: 80%;
+}
+}
+
 .lb-container > .nav {
   left: 0;
 }
